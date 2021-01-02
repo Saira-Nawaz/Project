@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type: none;
+	text-align: right;
+	margin: 30px;
+}
+li{
+	display: inline;
+	margin: 5px;
+	font-size: 20px;
+	text-decoration: none;
+	border: 2px solid white;
+	padding: 10px 20px;
+}
+main{
+	max-width: 1200px;
+	margin: auto;
+}
+li:hover{
+	color: black;
+	background-color: white;
+}
+li:active{
+	background-color: chocolate;
+}
+.a{
+	text-decoration: none;
+}
+.logo{
+	float: left;
+	width: 80px;
+	margin: 10px;
+}
+h1{
+	text-align: center;
+	margin: 150px;
+	color: darkgoldenrod;
+	letter-spacing: 10px;
+	font-size: 60px;
+}
+.button{
+	margin-left: 50px;
+}
+.btn{
+	border: 2px solid white;
+	padding: 10px 30px;
+	font-size: 20px;
+	margin: 2px;
+	text-decoration: none;
+	margin-left: 70px;
+}
+.btn:hover{
+	color: black;
+	background-color: white;
+}
