@@ -120,3 +120,36 @@ footer p{
 	justify-content: center;
 	color: white;
 }
+.sidebar{
+	background-color: #353535;
+	float: right;
+	width: 30%;
+	color: white;
+	padding-left: 20px;
+	margin-right: 70px;
+	margin-top: 50px;
+	padding-right: 10px;
+}
+.dark{
+	background-color: #353535;
+	color: white;
+	padding: 5px;
+}
+.service{
+	margin-left: 80px;
+	margin-right: 20px;
+	float: left;
+	width: 55%;
+	
+}
+.web{
+	background-color: rgb(233, 227, 227);
+	padding: 15px;
+	margin: 7px;
+}
+.about{
+	margin-left: 80px;
+	margin-right: 20px;
+	float: left;
+	width: 55%;
+}
