@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(175, 127, 221);
+    color: white;
+}
+.form{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.text{
+    margin-left: 40px;
+    border: none;
+}
+.comnt{
+    border: none;
+    width: 30%;
+    height: 30px;
+    margin-left: 50px;
+}
+.email{
+    margin-left: 80px;
+    border: none;
+}
+.name{
+    margin-left: 85px;
+    border: none;
+}
+.DOB{
+    margin-left: 20px;
+    border: none;
+}
+.no{
+    margin-left: 30px;
+    border: none;
+}
+.color{
+    margin-left: 30px;
+    border: none;
+}
+.file{
+    margin-left: 95px;
+    border: none;
+}
+.cntry{
+    margin-left: 5px;
+    border: none;
+}
+.gender{
+    margin-left: 15px;
+}
