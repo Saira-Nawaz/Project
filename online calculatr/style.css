@@ -9,43 +9,49 @@ body{
     /* background-color: purple; */
     line-height: 1.5px;
 }
-.head{
+header{
     float: left;
     width: 40%;
     margin-top: 250px;
-    /* margin-bottom: 230px; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 0px;
+    margin-bottom: 230px;
+    line-height: 0px;
 }
- .head h1{
+.head h1{
     font-weight: 700px;
     font-size: 40px;
     color: white;
-    text-decoration: underline; 
- }
-.head h3{
-    font-weight: 300px;
-    font-size: 20px;
-    color: black;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+    
+ } 
+.name{
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
 }
 .cal{
     float: right;
     width: 60%;
     margin-top: 200px;
-   
     transition: 0.25px;
     color: #f4f4f4;
     text-align: center;
 }
 #display{
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 10px;
     font-size: 20px;
     font-weight: 300px;
     border: 2px solid white;
     margin: auto;
+    margin-bottom: 2px;
 }
 .btnDesign{
     border: none;
@@ -54,25 +60,26 @@ body{
     border-radius: 30px;
     margin: 2px;
     font-weight: 300px;
-    height: 55;
-    width: 55;
+    height: 55px;
+    width: 55px;
     padding-top: 1.5px;
-
 }
 .zero{
     border: none;
     padding: 10px;
     font-size: 20px;
     border-radius: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 .operatorDesign{
     border: none;
     padding: 10px;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 30px;
     cursor: pointer;
+    width: 55px;
+    height: 55px;
 }
 .operatorDesign:hover{
     background-color: rgb(202, 78, 202);
